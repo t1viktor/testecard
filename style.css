@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div{
+    font-family: "Lato", sans-serif;
+    text-align:start;
+    display: flex;
+    flex-direction: row;
+    margin: 12%;
+    color: #271A45;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+
+main{
+    padding-top: 6rem;
+}
+
+h1{
+    font-family: "Crimson Pro", serif;
+    font-size: 32px;
+}
+
+a{
+    text-decoration: none ;
+}
+
+input[type="button"]{
+    margin: 8px 0 ;
+    padding: 10px 50px;
+    border-radius: 15px;
+    border: solid 1px #271A45;
+    transition: all .3s ease-in-out;
+    background-color: #ffffff;
+
+}
+
+::selection{
+    background-color: #271A45;
+    color: #ffffff;
+}
+
+img{
+    transition: all .5s ease-in-out;
+}
+
+img:hover{
+    transform: translateY(-6px);
+    cursor: pointer;
+}
+
+
+input[value="ADICIONAR À CESTA"]{
+    color: #271A45;
+    box-shadow: 3px 4px 5px #271A45;
+}
+
+input[value="ADICIONAR À CESTA"]:hover{
+    background-color: #271A45;
+    color: #ffffff;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
